@@ -1,0 +1,5 @@
+{
+  opts = {
+    relativenumber = true;
+  };
+}
