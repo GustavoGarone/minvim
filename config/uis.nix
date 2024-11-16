@@ -4,4 +4,5 @@
     web-devicons.enable = true;
     lualine.enable = true;
   };
+  colorscheme = "catppuccin";
 }
