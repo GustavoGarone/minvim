@@ -3,7 +3,6 @@
   imports = [ 
     ./uis.nix
     ./opts.nix
-    ./general-options.nix
     ./clipboard.nix
   ];
 }
