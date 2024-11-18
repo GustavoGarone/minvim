@@ -6,5 +6,6 @@
     ./clipboard.nix
     ./treesitter.nix
     ./langs.nix
+    ./telescope.nix
   ];
 }
