@@ -10,5 +10,6 @@
     ./globals.nix
     ./nvim-lint.nix
     ./keymaps.nix
+    ./nvim-cmp.nix
   ];
 }
