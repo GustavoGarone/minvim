@@ -7,5 +7,6 @@
     ./treesitter.nix
     ./langs.nix
     ./telescope.nix
+    ./globals.nix
   ];
 }
