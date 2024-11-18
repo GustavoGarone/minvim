@@ -12,6 +12,25 @@
       bash = [ "shellcheck" ];
       zsh = [ "zsh" ];
       markdown = [ "vale" ];
+      text = [ "vale" ];
+    };
+    autoCmd = {
+      callback.__raw = ''
+        function()
+          require('lint').try_lint()
+        end
+      '';
+      group = "lint";
+      event = [
+        "BufEnter"
+        "BufWritePost"
+        "InsertLeave"
+      ];
+    };
+  };
+  autoGroups = {
+    lint = {
+      clear = true;
     };
   };
 }
