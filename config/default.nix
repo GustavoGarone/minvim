@@ -4,5 +4,6 @@
     ./uis.nix
     ./opts.nix
     ./clipboard.nix
+    ./treesitter.nix
   ];
 }
