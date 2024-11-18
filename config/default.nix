@@ -8,5 +8,6 @@
     ./langs.nix
     ./telescope.nix
     ./globals.nix
+    ./nvim-lint.nix
   ];
 }
