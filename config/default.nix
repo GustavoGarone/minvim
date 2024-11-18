@@ -5,5 +5,6 @@
     ./opts.nix
     ./clipboard.nix
     ./treesitter.nix
+    ./langs.nix
   ];
 }
