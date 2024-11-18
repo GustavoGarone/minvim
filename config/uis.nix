@@ -1,6 +1,7 @@
 {
   plugins = {
     bufferline.enable = true;
+    which-key.enable = true;
     web-devicons.enable = true;
     lualine.enable = true;
     neo-tree = {
