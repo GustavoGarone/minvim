@@ -140,10 +140,10 @@
           action = "goto_next";
           desc = "Go to next [D]iagnostic message";
         };
-        "<leader>e" = {
+        "<leader>se" = {
           #mode = "n";
           action = "open_float";
-          desc = "Show diagnostic [E]rror messages";
+          desc = "[S]how diagnostic [E]rror messages";
         };
         "<leader>q" = {
           #mode = "n";
