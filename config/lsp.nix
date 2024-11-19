@@ -93,7 +93,16 @@
       #  enable = true;
       #}
 
+      nil_ls = {
+        enable = true;
+      };
+
       julials = {
+        enable = true;
+        package = null;
+      };
+
+      r_language_server = {
         enable = true;
         package = null;
       };
