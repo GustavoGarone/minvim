@@ -77,9 +77,6 @@
       # gopls = {
       #  enable = true;
       #}
-      # pyright = {
-      #  enable = true;
-      #}
       # rust_analyzer = {
       #  enable = true;
       #}
@@ -92,7 +89,6 @@
       # tsserver = {
       #  enable = true;
       #}
-
       nil_ls = {
         enable = true;
       };
@@ -106,6 +102,11 @@
         enable = true;
         package = null;
       };
+
+      pyright = {
+       enable = true;
+      };
+
 
       lua_ls = {
         enable = true;
