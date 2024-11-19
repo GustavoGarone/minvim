@@ -11,5 +11,6 @@
     ./nvim-lint.nix
     ./keymaps.nix
     ./nvim-cmp.nix
+    ./lsp.nix
   ];
 }
