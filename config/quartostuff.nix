@@ -1,3 +1,0 @@
-{
-  plugins.quarto.enable = true;
-}
