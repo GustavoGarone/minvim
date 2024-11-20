@@ -1,7 +1,0 @@
-{
-  plugins  = {
-    quarto = {
-      enable = true;
-    };
-  };
-}
