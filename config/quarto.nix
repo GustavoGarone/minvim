@@ -31,6 +31,12 @@
       enable = true;
       maxWidth = 100;
       maxHeight = 12;
+      integrations.markdown.filetypes =
+        [
+          "markdown"
+          "vimwiki"
+          "quarto"
+        ];
     };
   };
 }
