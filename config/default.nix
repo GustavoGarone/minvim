@@ -12,5 +12,6 @@
     ./keymaps.nix
     ./nvim-cmp.nix
     ./lsp.nix
+    ./quartostuff.nix
   ];
 }
