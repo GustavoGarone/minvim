@@ -29,6 +29,8 @@
     };
     image = {
       enable = true;
+      max_width = 100;
+      max_height = 12;
     };
   };
 }
