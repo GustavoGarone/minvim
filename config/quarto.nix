@@ -16,6 +16,15 @@
             ];
           };
           enabled = true;
+          chunks = "curly";
+          languages = [
+            "r"
+            "python"
+            "julia"
+            "bash"
+            "html"
+          ];
+          completion.enabled = true;
         };
       };
     };
