@@ -2,6 +2,22 @@
   plugins = {
     quarto = {
       enable = true;
+      settings = {
+        codeRunner = {
+            default_method = "molten";
+            enabled = true;
+          };
+        debug = false;
+        lspFeatures = {
+          diagnostics = {
+            enabled = true;
+            triggers = [
+              "BufWritePost"
+            ];
+          };
+          enabled = true;
+        };
+      };
     };
     molten = {
       enable = true;
