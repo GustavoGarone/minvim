@@ -63,5 +63,8 @@
           "quarto"
         ];
     };
+    otter = {
+      enable = true;
+    };
   };
 }
