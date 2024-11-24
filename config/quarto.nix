@@ -59,7 +59,7 @@
         output_virt_lines = false;
         output_win_border = [ "" "━" "" "" ];
         output_win_hide_on_leave = true;
-        output_win_max_height = 20;
+        output_win_max_height = 25;
         output_win_max_width = 80;
         save_path.__raw = "vim.fn.stdpath('data')..'/molten'";
         tick_rate = 500;
@@ -71,7 +71,7 @@
     image = {
       enable = true;
       maxWidth = 100;
-      maxHeight = 15;
+      maxHeight = 20;
       maxHeightWindowPercentage.__raw = "math.huge";
       maxWidthWindowPercentage =  100000;
       integrations.markdown.filetypes =
