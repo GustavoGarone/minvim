@@ -54,7 +54,7 @@
         cover_empty_lines = false;
         copy_output = false;
         enter_output_behavior = "open_then_enter";
-        image_provider = "none";
+        image_provider = "image.nvim";
         output_crop_border = true;
         output_virt_lines = false;
         output_win_border = [ "" "━" "" "" ];
