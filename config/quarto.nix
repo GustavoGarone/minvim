@@ -59,8 +59,8 @@
         output_virt_lines = false;
         output_win_border = [ "" "━" "" "" ];
         output_win_hide_on_leave = true;
-        output_win_max_height = 15;
-        output_win_max_width = 80;
+        output_win_max_height = 80;
+        output_win_max_width = 160;
         save_path.__raw = "vim.fn.stdpath('data')..'/molten'";
         tick_rate = 500;
         use_border_highlights = false;
