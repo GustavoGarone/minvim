@@ -71,7 +71,9 @@
     image = {
       enable = true;
       maxWidth = 100;
-      maxHeight = 40;
+      maxHeight = 15;
+      maxHeightWindowPercentage.__raw = "math.huge";
+      maxWidthWindowPercentage =  100000;
       integrations.markdown.filetypes =
         [
           "markdown"
