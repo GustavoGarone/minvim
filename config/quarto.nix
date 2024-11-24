@@ -28,6 +28,9 @@
         };
       };
     };
+    markview = {
+      enable = true;
+    };
     # vim-slime = {
     #   enable = true;
     #   settings = {
