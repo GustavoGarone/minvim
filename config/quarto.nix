@@ -47,7 +47,7 @@
     molten = {
       enable = true;
       settings = {
-        auto_image_popup = false;
+        auto_image_popup = true;
         auto_init_behavior = "init";
         auto_open_html_in_browser = false;
         auto_open_output = true;
@@ -59,8 +59,8 @@
         output_virt_lines = false;
         output_win_border = [ "" "━" "" "" ];
         output_win_hide_on_leave = true;
-        output_win_max_height = 80;
-        output_win_max_width = 160;
+        output_win_max_height = 20;
+        output_win_max_width = 80;
         save_path.__raw = "vim.fn.stdpath('data')..'/molten'";
         tick_rate = 500;
         use_border_highlights = false;
@@ -71,7 +71,7 @@
     image = {
       enable = true;
       maxWidth = 100;
-      maxHeight = 12;
+      maxHeight = 40;
       integrations.markdown.filetypes =
         [
           "markdown"
