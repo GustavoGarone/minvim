@@ -9,6 +9,14 @@
       };
     }
     {
+      action = "<Cmd>split<CR><C-w>12-<Cmd>terminal<CR>i";
+      key = "<Leader>t";
+      options = {
+        desc = "Open [T]erminal";
+        silent = true;
+      };
+    }
+    {
       action = "<Cmd>MoltenEvaluateVisual<CR>";
       key = "<Leader>mv";
       options.desc = "[M]olten run [v]isual";
