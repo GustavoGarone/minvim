@@ -14,6 +14,7 @@
             triggers = [
               "BufWritePost"
             ];
+            completion.enabled = false;
           };
           enabled = true;
           chunks = "curly";
@@ -27,9 +28,6 @@
           completion.enabled = true;
         };
       };
-    };
-    markview = {
-      enable = true;
     };
     # vim-slime = {
     #   enable = true;
@@ -50,7 +48,7 @@
     molten = {
       enable = true;
       settings = {
-        auto_image_popup = true;
+        auto_image_popup = false;
         auto_init_behavior = "init";
         auto_open_html_in_browser = false;
         auto_open_output = true;
