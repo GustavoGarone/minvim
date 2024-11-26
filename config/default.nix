@@ -13,5 +13,6 @@
     ./nvim-cmp.nix
     ./lsp.nix
     ./quarto.nix
+    ./dashboard.nix
   ];
 }
