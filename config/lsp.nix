@@ -145,10 +145,10 @@
           action = "open_float";
           desc = "[S]how diagnostic [E]rror messages";
         };
-        "<leader>q" = {
+        "<leader>dq" = {
           #mode = "n";
           action = "setloclist";
-          desc = "Open diagnostic [Q]uickfix list";
+          desc = "Open [D]iagnostic [Q]uickfix list";
         };
       };
 
