@@ -4,4 +4,9 @@
     maplocalleader = " ";
     editorconfig = true;
   };
+  performance= {
+    combinePlugins = {
+      enable= true;
+    };
+  };
 }
