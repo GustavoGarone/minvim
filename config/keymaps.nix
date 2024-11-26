@@ -17,9 +17,36 @@
       };
     }
     {
+      action = "<Cmd>set spell spelllang=pt<CR>";
+      key = "<Leader>sp";
+      options = {
+        desc = "[S]pell [p]ortuguese";
+        silent = true;
+      };
+    }
+    {
+      action = "<Cmd>set spell spelllang=en<CR>";
+      key = "<Leader>se";
+      options = {
+        desc = "[S]pell [e]nglish";
+        silent = true;
+      };
+    }
+    {
+      action = "<Cmd>set nospell<CR>";
+      key = "<Leader>sn";
+      options = {
+        desc = "[S]pell [n]ospell";
+        silent = true;
+      };
+    }
+    {
       action = "<Cmd>MoltenEvaluateVisual<CR>";
       key = "<Leader>mv";
-      options.desc = "[M]olten run [v]isual";
+      options = {
+        desc = "[M]olten run [v]isual";
+        silent = true;
+      };
     }
     {
       action = "<Cmd>MoltenEvaluateLine<CR>";
