@@ -8,6 +8,12 @@
       enable = true;
     };
   };
-  colorscheme = "catppuccin";
-  colorschemes.catppuccin.enable = true;
+  # colorscheme = "everforest";
+  colorschemes.everforest = {
+    enable = true;
+    settings = {
+      background = "hard";
+      dim_inactive_windows = 1;
+    };
+  };
 }
