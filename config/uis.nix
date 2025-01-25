@@ -4,6 +4,7 @@
     which-key.enable = true;
     web-devicons.enable = true;
     lualine.enable = true;
+    colorizer.enable = true;
     neo-tree = {
       enable = true;
     };
