@@ -9,11 +9,13 @@
     };
   };
   # colorscheme = "everforest";
-  colorschemes.everforest = {
+  colorschemes.monokai-pro = {
     enable = true;
     settings = {
-      background = "hard";
-      dim_inactive_windows = 1;
+      devicons = true;
+      day_night.enable = true;
+      day_night.day_filter = "spectrum";
+      day_night.night_filter = "soda";
     };
   };
 }
