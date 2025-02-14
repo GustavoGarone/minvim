@@ -5,6 +5,7 @@
     web-devicons.enable = true;
     lualine.enable = true;
     colorizer.enable = true;
+    notify.enable = true;
     neo-tree = {
       enable = true;
     };
