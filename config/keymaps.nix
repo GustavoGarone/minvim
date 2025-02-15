@@ -104,5 +104,76 @@
         silent = true;
       };
     }
+    # Center screen when scrolling
+    {
+      action = "<C-d>zz";
+      key = "<C-d>";
+    }
+    {
+      action = "<C-u>zz";
+      key = "<C-u>";
+    }
+    {
+      action = "nzzzv";
+      key = "n";
+    }
+    {
+      action = "Nzzv";
+      key = "N";
+    }
+    # Window navigation
+    {
+      action = "<C-w>j";
+      key = "<C-j>";
+    }
+    {
+      action = "<C-w>h";
+      key = "<C-h>";
+    }
+    {
+      action = "<C-w>k";
+      key = "<C-k>";
+    }
+    {
+      action = "<C-w>l";
+      key = "<C-l>";
+    }
+    # Bufferline
+    {
+      action = "<cmd>BufferLineCycleNext<CR>";
+      key = "<Tab>";
+      options = {
+        desc = "Go to next [Tab]";
+      };
+    }
+    {
+      action = "<cmd>BufferLineCyclePrev<CR>";
+      key = "<S-Tab>";
+      options = {
+        desc = "Go to previous [Tab]";
+      };
+    }
+    {
+      action = "<cmd>bdelete<CR>";
+      key = "<Leader>x";
+      options = {
+        desc = "Delete current buffer";
+      };
+    }
+    # Copiar e colar sem trocar 
+    {
+      action = "_d";
+      key = "<Leader>d";
+      options = {
+        desc = "[D]elete without overwriting clipboard";
+      };
+    }
+    {
+      action = "_p";
+      key = "<Leader>p";
+      options = {
+        desc = "[P]aste without overwriting clipboard";
+      };
+    }
   ];
 }
