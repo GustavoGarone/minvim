@@ -94,7 +94,8 @@
       # tsserver = {
       #  enable = true;
       #}
-      ltex = {
+      ltex_plus = {
+        package = "ltex-ls-plus";
         enable = true;
         settings = {
           completionEnabled = true;
