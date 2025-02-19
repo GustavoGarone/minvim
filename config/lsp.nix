@@ -89,7 +89,7 @@
       # tsserver = {
       #  enable = true;
       #}
-      ltex_plus = {
+      ltex = {
         enable = true;
       };
 
