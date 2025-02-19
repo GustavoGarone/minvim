@@ -93,7 +93,7 @@
         enable = true;
         settings = {
           completionEnabled = true;
-          language = ["pt-BR" "en-US"];
+          language = "pt-BR";
         };
       };
 
