@@ -62,8 +62,8 @@
   plugins.lsp-lines.enable = true;
   plugins.lsp-signature.enable = true;
   plugins.lsp-status.enable = true;
-  plugins.lsp-saga.enable = true;
-  plugins.lsp-kind.enable = true;
+  plugins.lspsaga.enable = true;
+  plugins.lspkind.enable = true;
   plugins.ltex-extra.enable = true;
   plugins.lsp = {
     enable = true;
