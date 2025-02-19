@@ -17,6 +17,18 @@
     enable = true;
   };
 
+  plugins.cmp-pandoc-nvim = {
+    enable = true;
+  };
+
+  plugins.cmp-pandoc-references = {
+    enable = true;
+  };
+
+  plugins.cmp-latex-symbols = {
+    enable = true;
+  };
+
   # `friendly-snippets` contains a variety of premade snippets
   #    See the README about individual language/framework/plugin snippets:
   #    https://github.com/rafamadriz/friendly-snippets

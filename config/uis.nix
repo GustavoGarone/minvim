@@ -10,7 +10,7 @@
       enable = true;
     };
   };
-  # colorscheme = "everforest";
+  # colorscheme = "everforest"; 
   colorschemes.everforest = {
     enable = true;
     # settings = {

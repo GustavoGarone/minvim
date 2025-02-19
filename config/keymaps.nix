@@ -142,6 +142,7 @@
     {
       action = "<cmd>BufferLineCycleNext<CR>";
       key = "<Tab>";
+      mode = [ "n" "v" ];
       options = {
         desc = "Go to next [Tab]";
       };
@@ -149,6 +150,7 @@
     {
       action = "<cmd>BufferLineCyclePrev<CR>";
       key = "<S-Tab>";
+      mode = [ "n" "v" ];
       options = {
         desc = "Go to previous [Tab]";
       };
