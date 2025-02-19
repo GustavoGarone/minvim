@@ -61,7 +61,7 @@
   plugins.lsp-format.enable = true;
   plugins.lsp-signature.enable = true;
   plugins.lspsaga.enable = true;
-  plugins.lspkind.enable = true;
+  # plugins.lspkind.enable = true;
   plugins.ltex-extra.enable = true;
   plugins.lsp = {
     enable = true;
@@ -94,7 +94,7 @@
       # tsserver = {
       #  enable = true;
       #}
-      ltex_plus = {
+      ltex = {
         package = pkgs.ltex-ls-plus;
         enable = true;
         settings = {
