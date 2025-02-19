@@ -91,6 +91,10 @@
       #}
       ltex = {
         enable = true;
+        settings = {
+          completionEnabled = true;
+          language = ["pt-BR" "en-US"];
+        };
       };
 
       nil_ls = {
