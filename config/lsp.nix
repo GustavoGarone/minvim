@@ -95,7 +95,6 @@
       #  enable = true;
       #}
       ltex = {
-        package = pkgs.ltex-ls-plus;
         enable = true;
         settings = {
           completionEnabled = true;
