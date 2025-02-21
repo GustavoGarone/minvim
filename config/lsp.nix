@@ -101,7 +101,7 @@
           language = "pt-BR";
           additionalRules ={
             enablePickyRules = true;
-            motherTongue = "en-US";
+            motherTongue = "pt-BR";
           };
         };
       };
