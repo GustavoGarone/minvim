@@ -15,8 +15,9 @@
     undofile = true;
     undolevels = 2000;
     history = 2000;
-    colorcolumn = "80";
+    colorcolumn = ["80" "120"];
     lazyredraw = true;
+    smartcase = true;
     showmatch = true;
     incsearch = true;
     hlsearch = true;
