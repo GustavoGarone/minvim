@@ -17,6 +17,7 @@
     history = 2000;
     colorcolumn = ["80" "120"];
     lazyredraw = true;
+    ignorecase = true;
     smartcase = true;
     showmatch = true;
     incsearch = true;
