@@ -3,7 +3,7 @@
     toggleterm = {
       enable = true;
       settings = {
-        direction = "float";
+        direction = "right";
         float_opts = {
           border = "curved";
           height = 30;
