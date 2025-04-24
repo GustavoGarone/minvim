@@ -8,22 +8,23 @@
         silent = true;
       };
     }
-    {
-      action = "<Cmd>split<CR><C-w>12-<Cmd>terminal<CR>i";
-      key = "<Leader>td";
-      options = {
-        desc = "[T]erminal [d]own";
-        silent = true;
-      };
-    }
-    {
-      action = "<Cmd>vsplit<CR>25<C-w><lt><Cmd>terminal<CR>i";
-      key = "<Leader>ts";
-      options = {
-        desc = "[T]erminal [side]";
-        silent = true;
-      };
-    }
+    # Currently using toggleterm
+    # {
+    #   action = "<Cmd>split<CR><C-w>12-<Cmd>terminal<CR>i";
+    #   key = "<Leader>td";
+    #   options = {
+    #     desc = "[T]erminal [d]own";
+    #     silent = true;
+    #   };
+    # }
+    # {
+    #   action = "<Cmd>vsplit<CR>25<C-w><lt><Cmd>terminal<CR>i";
+    #   key = "<Leader>ts";
+    #   options = {
+    #     desc = "[T]erminal [side]";
+    #     silent = true;
+    #   };
+    # }
     {
       action = "<Cmd>set spell spelllang=pt<CR>";
       key = "<Leader>sp";

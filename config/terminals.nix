@@ -13,4 +13,10 @@
       };
     };
   };
+  keymaps = [
+    {
+      action = "<C-t><C-n>";
+      key = "<Esc>";
+    }
+  ];
 }
