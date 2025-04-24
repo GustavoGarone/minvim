@@ -39,7 +39,7 @@
     }
     {
       mode="n";
-      action = "2<c-n>";
+      action = "2<c-t>";
       key = "<Leader>tf";
       options = {
         desc = "[T]erminal [f]loating";
