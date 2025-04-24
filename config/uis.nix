@@ -9,17 +9,15 @@
     neo-tree = {
       enable = true;
     };
-    toggleterm = {
-      enable = true;
-      settings = {
-        direction = "float";
-        float_opts = {
-          border = "curved";
-          height = 30;
-          width = 130;
-        };
-        open_mapping = "[[<c->]]";
-      };
-    };
+  };
+  # colorscheme = "everforest"; 
+  colorschemes.everforest = {
+    enable = true;
+    # settings = {
+    #   devicons = true;
+    #   day_night.enable = true;
+    #   day_night.day_filter = "spectrum";
+    #   day_night.night_filter = "soda";
+    # };
   };
 }

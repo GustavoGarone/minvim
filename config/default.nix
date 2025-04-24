@@ -2,6 +2,7 @@
   # Import all your configuration modules here
   imports = [ 
     ./uis.nix
+    ./terminals.nix
     ./opts.nix
     ./clipboard.nix
     ./treesitter.nix
