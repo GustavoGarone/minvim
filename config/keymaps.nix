@@ -10,17 +10,17 @@
     }
     {
       action = "<Cmd>split<CR><C-w>12-<Cmd>terminal<CR>i";
-      key = "<Leader>t";
+      key = "<Leader>td";
       options = {
-        desc = "Open [T]erminal";
+        desc = "[T]erminal [d]own";
         silent = true;
       };
     }
     {
-      action = "<Cmd>vsplit<CR><C-w>12-<Cmd>terminal<CR>i";
-      key = "<Leader>t";
+      action = "<Cmd>vsplit<CR>25<C-w><lt><Cmd>terminal<CR>i";
+      key = "<Leader>ts";
       options = {
-        desc = "Open [T]erminal";
+        desc = "[T]erminal [side]";
         silent = true;
       };
     }
