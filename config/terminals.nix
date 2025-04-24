@@ -15,7 +15,7 @@
   };
   keymaps = [
     {
-      action = "[[<C-t><C-n>]]";
+      action = "<C-t><C-n>";
       key = "<Esc>";
       mode="t";
     }
