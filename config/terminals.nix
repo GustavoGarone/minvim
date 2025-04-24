@@ -2,11 +2,11 @@
   plugins = {
     toggleterm = {
       enable = true;
-      direction = "float";
       settings = {
+        direction = "float";
         float_opts = {
           border = "curved";
-          height = 30;
+          height = 40;
           width = 130;
         };
         open_mapping = "[[<c-t>]]";
@@ -20,7 +20,7 @@
       mode="t";
     }
     {
-      action = "<cmd>Toggleterm direction=\"vertical\"<CR>";
+      action = "<cmd>ToggleTerm direction=\"vertical\"<CR>";
       key = "<Leader>tv";
       options = {
         desc = "[T]erminal [v]ertical";
@@ -28,7 +28,7 @@
       };
     }
     {
-      action = "<cmd>Toggleterm direction=\"horizontal\"<CR>";
+      action = "<cmd>ToggleTerm direction=\"horizontal\"<CR>";
       key = "<Leader>th";
       options = {
         desc = "[T]erminal [h]orizontal";
@@ -36,7 +36,7 @@
       };
     }
     {
-      action = "<cmd>Toggleterm direction=\"float\"<CR>";
+      action = "<cmd>ToggleTerm direction=\"float\"<CR>";
       key = "<Leader>th";
       options = {
         desc = "[T]erminal [f]loating";
