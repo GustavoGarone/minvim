@@ -4,6 +4,7 @@
   # Snippet Engine & its associated nvim-cmp source
   # https://nix-community.github.io/nixvim/plugins/luasnip/index.html
   plugins.luasnip = {
+    enable_autosnippets = true;
     enable = true;
   };
 
@@ -89,9 +90,9 @@
         "<C-y>" = "cmp.mapping.confirm { select = true }";
         # If you prefer more traditional completion keymaps,
         # you can uncomment the following lines.
-        "<CR>" = "cmp.mapping.confirm { select = true }";
-        "<Tab>" = "cmp.mapping.select_next_item()";
-        "<S-Tab>" = "cmp.mapping.select_prev_item()";
+        "<Tab>" = "cmp.mapping.confirm { select = true }";
+        "<A-j>" = "cmp.mapping.select_next_item()";
+        "<A-k>" = "cmp.mapping.select_prev_item()";
 
         # Manually trigger a completion from nvim-cmp.
         #  Generally you don't need this, because nvim-cmp will display
