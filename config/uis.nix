@@ -22,11 +22,17 @@
               "TelescopePrompt"
               "TelescopeResults"
               "yaml"
-            ];
-          };
+              "dashboard"
+          ];
+        buftypes = [
+            "terminal"
+            "quickfix"
+            "dashboard"
+          ];
         };
       };
     };
+  };
   # colorscheme = "everforest"; 
   colorschemes.everforest = {
     enable = true;
