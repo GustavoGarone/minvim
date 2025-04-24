@@ -3,7 +3,7 @@
     toggleterm = {
       enable = true;
       settings = {
-        direction = "tab";
+        direction = "vertical";
         float_opts = {
           border = "curved";
           height = 30;
@@ -15,8 +15,9 @@
   };
   keymaps = [
     {
-      action = "<C-t><C-n>";
+      action = "[[<C-t><C-n>]]";
       key = "<Esc>";
+      mode="t"
     }
   ];
 }
