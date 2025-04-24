@@ -9,7 +9,24 @@
     neo-tree = {
       enable = true;
     };
-  };
+    indent-blankline = {
+      enable = true;
+      settings = {
+        exclude = {
+        filetypes = [
+              ""
+              "checkhealth"
+              "help"
+              "lspinfo"
+              "packer"
+              "TelescopePrompt"
+              "TelescopeResults"
+              "yaml"
+            ];
+          };
+        };
+      };
+    };
   # colorscheme = "everforest"; 
   colorschemes.everforest = {
     enable = true;

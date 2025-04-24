@@ -3,7 +3,6 @@
     toggleterm = {
       enable = true;
       settings = {
-        direction = "horizontal";
         float_opts = {
           border = "curved";
           height = 30;
@@ -18,6 +17,14 @@
       action = "<C-\\><C-n>";
       key = "<Esc>";
       mode="t";
+    }
+    {
+      action = "<cmd>Toggleterm";
+      key = "<Leader>td";
+      options = {
+        desc = "[T]erminal [d]own";
+        silent = true;
+      };
     }
   ];
 }
