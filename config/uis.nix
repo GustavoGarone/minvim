@@ -27,7 +27,6 @@
         buftypes = [
             "terminal"
             "quickfix"
-            "dashboard"
           ];
         };
       };
