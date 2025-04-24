@@ -6,7 +6,7 @@
   };
   performance= {
     combinePlugins = {
-      enable= true;
+      enable = false;
     };
   };
 }

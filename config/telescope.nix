@@ -2,6 +2,7 @@
   plugins.telescope = {
     enable = true;
       extensions = {
+        live-grep-args.enable = true;
         fzf-native = {
           enable = true;
           settings = {
@@ -55,10 +56,6 @@
        "<leader>:" = {
          action = "command_history";
          options.desc = "Command History";
-       };
-       "<leader>b" = {
-         action = "buffers";
-         options.desc = "+buffer";
        };
        "<leader>ff" = {
          action = "find_files";

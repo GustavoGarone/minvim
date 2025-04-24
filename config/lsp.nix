@@ -58,6 +58,11 @@
   # and elegantly composed help section, `:help lsp-vs-treesitter`
   #
   # https://nix-community.github.io/nixvim/plugins/lsp/index.html
+  plugins.lsp-format.enable = true;
+  plugins.lsp-signature.enable = true;
+  # plugins.lspsaga.enable = true;
+  plugins.lspkind.enable = true;
+  plugins.ltex-extra.enable = true;
   plugins.lsp = {
     enable = true;
 
@@ -89,6 +94,18 @@
       # tsserver = {
       #  enable = true;
       #}
+      ltex = {
+        enable = true;
+        settings = {
+          completionEnabled = true;
+          language = "pt-BR";
+          additionalRules ={
+            enablePickyRules = true;
+            motherTongue = "pt-BR";
+          };
+        };
+      };
+
       nil_ls = {
         enable = true;
       };

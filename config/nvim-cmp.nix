@@ -17,6 +17,18 @@
     enable = true;
   };
 
+  plugins.cmp-pandoc-nvim = {
+    enable = true;
+  };
+
+  plugins.cmp-pandoc-references = {
+    enable = true;
+  };
+
+  plugins.cmp-latex-symbols = {
+    enable = true;
+  };
+
   # `friendly-snippets` contains a variety of premade snippets
   #    See the README about individual language/framework/plugin snippets:
   #    https://github.com/rafamadriz/friendly-snippets
@@ -37,6 +49,7 @@
   # https://nix-community.github.io/nixvim/plugins/cmp/index.html
   plugins.cmp = {
     enable = true;
+    autoEnableSources = true;
 
     settings = {
       snippet = {
@@ -46,6 +59,13 @@
           end
         '';
       };
+
+      sources = [
+        { name = "nvim_lsp"; }
+        { name = "path"; }
+        { name = "buffer"; }
+        { name = "luasnip"; }
+      ];
 
       completion = {
         completeopt = "menu,menuone,noinsert";
@@ -109,20 +129,20 @@
       # corresponding source plugins. This will work only when this option is set to a list.
       # If you use a raw lua string, you will need to explicitly enable the relevant source
       # plugins in your nixvim configuration.
-      sources = [
-        {
-          name = "luasnip";
-        }
-        # Adds other completion capabilites.
-        #  nvim-cmp does not ship with all sources by default. They are split
-        #  into multiple repos for maintenance purposes.
-        {
-          name = "nvim_lsp";
-        }
-        {
-          name = "path";
-        }
-      ];
+      # sources = [
+      #   {
+      #     name = "luasnip";
+      #   }
+      #   # Adds other completion capabilites.
+      #   #  nvim-cmp does not ship with all sources by default. They are split
+      #   #  into multiple repos for maintenance purposes.
+      #   {
+      #     name = "nvim_lsp";
+      #   }
+      #   {
+      #     name = "path";
+      #   }
+      # ];
     };
   };
 }
