@@ -39,7 +39,7 @@
     }
     {
       mode="n";
-      action = "2<c-t>";
+      action = "<cmd>ToggleTerm direction=\"float\"<CR>";
       key = "<Leader>tf";
       options = {
         desc = "[T]erminal [f]loating";

@@ -30,6 +30,10 @@
     enable = true;
   };
 
+  plugins.cmp-vsnip = {
+    enable = true;
+  };
+
   # `friendly-snippets` contains a variety of premade snippets
   #    See the README about individual language/framework/plugin snippets:
   #    https://github.com/rafamadriz/friendly-snippets
@@ -63,6 +67,8 @@
 
       sources = [
         { name = "nvim_lsp"; }
+        { name = "latex-symbols"; }
+        { name = "vsnip"; }
         { name = "path"; }
         { name = "buffer"; }
         { name = "luasnip"; }
