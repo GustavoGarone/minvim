@@ -17,6 +17,14 @@
       };
     }
     {
+      action = "<Cmd>vsplit<CR><C-w>12-<Cmd>terminal<CR>i";
+      key = "<Leader>t";
+      options = {
+        desc = "Open [T]erminal";
+        silent = true;
+      };
+    }
+    {
       action = "<Cmd>set spell spelllang=pt<CR>";
       key = "<Leader>sp";
       options = {
@@ -41,58 +49,18 @@
       };
     }
     {
-      action = "<Cmd>MoltenEvaluateVisual<CR>";
-      key = "<Leader>mv";
-      options = {
-        desc = "[M]olten run [v]isual";
-        silent = true;
-      };
-    }
-    {
-      action = "<Cmd>MoltenEvaluateLine<CR>";
-      key = "<C-CR>";
-      options = {
-        desc = "Molten evaluate line";
-        silent = true;
-      };
-    }
-    {
-      action = "<Cmd>MoltenImagePopup<CR>";
-      key = "<Leader>mi";
-      options = {
-        desc = "[M]olten [i]mage popup";
-        silent = true;
-      };
-    }
-    {
-      action = "<Cmd>MoltenHideOutput<CR>";
-      key = "<Leader>mh";
-      options = {
-        desc = "[M]olten [h]ide output";
-        silent = true;
-      };
-    }
-    {
-      action = "<Cmd>MoltenShowOutput<CR>";
-      key = "<Leader>ms";
-      options = {
-        desc = "[M]olten [s]how output";
-        silent = true;
-      };
-    }
-    {
       action = "<Cmd>QuartoSend<CR>";
-      key = "<Leader>mc";
+      key = "<Leader>qs";
       options = {
-        desc = "[M]olten run [c]ell";
+        desc = "[q]uarto [s]end";
         silent = true;
       };
     }
     {
       action = "<Cmd>QuartoSendAll<CR>";
-      key = "<Leader>ma";
+      key = "<Leader>qa";
       options = {
-        desc = "[M]olten run [a]ll";
+        desc = "[q]uarto send [a]ll";
         silent = true;
       };
     }
@@ -162,7 +130,14 @@
         desc = "Delete current buffer";
       };
     }
-    # Copiar e colar sem trocar 
+    {
+      action = "<cmd>bdelete!<CR>";
+      key = "<Leader>X";
+      options = {
+        desc = "Delete! current buffer";
+      };
+    }
+    # Copiar e colar sem trocar | Não funcionando ainda
     {
       action = "_d";
       key = "<Leader>d";
