@@ -4,8 +4,8 @@
   # Snippet Engine & its associated nvim-cmp source
   # https://nix-community.github.io/nixvim/plugins/luasnip/index.html
   plugins.luasnip = {
-    enable_autosnippets = true;
     enable = true;
+    settings.enable_autosnippets = true;
   };
 
   # https://nix-community.github.io/nixvim/plugins/cmp-nvim-lsp.html
