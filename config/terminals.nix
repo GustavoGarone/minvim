@@ -21,7 +21,7 @@
     }
     {
       mode="n";
-      action = "1<cmd>1ToggleTerm direction=\"vertical\"<CR>";
+      action = "<cmd>ToggleTerm direction=\"vertical\"<CR>";
       key = "<Leader>tv";
       options = {
         desc = "[T]erminal [v]ertical";
@@ -30,7 +30,7 @@
     }
     {
       mode="n";
-      action = "2<cmd>ToggleTerm direction=\"horizontal\"<CR>";
+      action = "<cmd>ToggleTerm direction=\"horizontal\"<CR>";
       key = "<Leader>th";
       options = {
         desc = "[T]erminal [h]orizontal";
@@ -39,7 +39,7 @@
     }
     {
       mode="n";
-      action = "3<cmd>ToggleTerm direction=\"float\"<CR>";
+      action = "2<c-n>";
       key = "<Leader>tf";
       options = {
         desc = "[T]erminal [f]loating";
