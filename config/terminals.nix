@@ -17,7 +17,7 @@
     {
       action = "[[<C-t><C-n>]]";
       key = "<Esc>";
-      mode="t"
+      mode="t";
     }
   ];
 }
