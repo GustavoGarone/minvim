@@ -71,16 +71,18 @@
     # };
     image = {
       enable = true;
-      maxWidth = 100;
-      maxHeight = 20;
-      maxHeightWindowPercentage.__raw = "math.huge";
-      maxWidthWindowPercentage =  100000;
-      settings.integrations.markdown.filetypes =
-        [
-          "markdown"
-          "vimwiki"
-          "quarto"
-        ];
+      settings = {
+        maxWidth = 100;
+        maxHeight = 20;
+        maxHeightWindowPercentage.__raw = "math.huge";
+        maxWidthWindowPercentage =  100000;
+        settings.integrations.markdown.filetypes =
+          [
+            "markdown"
+            "vimwiki"
+            "quarto"
+          ];
+      };
     };
     otter = {
       enable = true;
