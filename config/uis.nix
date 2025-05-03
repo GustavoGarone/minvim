@@ -36,6 +36,9 @@
     enable = true;
     settings = {
       mirage = true;
+      overrides = {
+        style="dark";
+      };
     };
   };
   # colorscheme = "everforest"; 
