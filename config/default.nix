@@ -8,6 +8,7 @@
     ./treesitter.nix
     ./langs.nix
     ./telescope.nix
+    ./git.nix
     ./globals.nix
     ./nvim-lint.nix
     ./keymaps.nix
