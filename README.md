@@ -13,5 +13,5 @@ If you add a new configuration file, remember to add it to the
 If you have Nix installed and flakes enabled you can run this in any system through
 
 ```
-nix run github:GustavoGarone/nixvim
+nix run github:GustavoGarone/minvim
 ```
