@@ -32,10 +32,10 @@
       };
     };
   };
-  colorschemes = {
-    base16 = {
-      enable = true;
-      colorscheme = "solarized-light";
+  colorschemes.ayu ={
+    enable = true;
+    settings = {
+      mirage = true;
     };
   };
   # colorscheme = "everforest"; 
