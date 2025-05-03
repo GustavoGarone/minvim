@@ -32,14 +32,18 @@
       };
     };
   };
-  # colorscheme = "everforest"; 
-  colorschemes.everforest = {
-    enable = true;
-    # settings = {
-    #   devicons = true;
-    #   day_night.enable = true;
-    #   day_night.day_filter = "spectrum";
-    #   day_night.night_filter = "soda";
-    # };
+  colorschemes = {
+    base16.enable = true;
+    package = pkgs.vimPlugins.mini-base16;
   };
+  # colorscheme = "everforest"; 
+  # colorschemes.everforest = {
+  #   enable = true;
+  #   # settings = {
+  #   #   devicons = true;
+  #   #   day_night.enable = true;
+  #   #   day_night.day_filter = "spectrum";
+  #   #   day_night.night_filter = "soda";
+  #   # };
+  # };
 }
