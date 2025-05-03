@@ -35,7 +35,7 @@
   colorschemes = {
     base16 = {
       enable = true;
-      colorscheme = "bese16-solarized-light";
+      colorscheme = "solarized-light";
     };
   };
   # colorscheme = "everforest"; 
