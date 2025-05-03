@@ -1,3 +1,4 @@
+# This is a general keymap file, some plugin-specific keymaps might be in other files.
 {
   keymaps = [
     {
