@@ -75,7 +75,7 @@
       maxHeight = 20;
       maxHeightWindowPercentage.__raw = "math.huge";
       maxWidthWindowPercentage =  100000;
-      integrations.markdown.filetypes =
+      settings.integrations.markdown.filetypes =
         [
           "markdown"
           "vimwiki"
