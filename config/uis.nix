@@ -32,12 +32,7 @@
       };
     };
   };
-  colorschemes = {
-    base16 = {
-      enable = true;
-      colorscheme = "solarized-light";
-    };
-  };
+  colorscheme = "solarized-light";
   # colorscheme = "everforest"; 
   # colorschemes.everforest = {
   #   enable = true;
