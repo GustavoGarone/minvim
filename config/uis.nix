@@ -33,8 +33,10 @@
     };
   };
   colorschemes = {
-    base16.enable = true;
-    package = pkgs.vimPlugins.mini-base16;
+    base16 = {
+      enable = true;
+      package = pkgs.vimPlugins.mini-base16;
+    };
   };
   # colorscheme = "everforest"; 
   # colorschemes.everforest = {
