@@ -32,12 +32,16 @@
       };
     };
   };
-  colorschemes.catppuccin = {
+  colorschemes.base16 = {
     enable = true;
-    settings = {
-      flavour = "latte";
-    };
+    colorscheme = "base16-da-one-paper";
   };
+  # colorschemes.catppuccin = {
+  #   enable = true;
+  #   settings = {
+  #     flavour = "latte";
+  #   };
+  # };
   # colorschemes.ayu ={
   #   enable = true;
   #   settings = {
