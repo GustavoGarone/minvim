@@ -34,7 +34,7 @@
   };
   colorschemes.base16 = {
     enable = true;
-    colorscheme = "base16-da-one-paper";
+    colorscheme = "da-one-paper";
   };
   # colorschemes.catppuccin = {
   #   enable = true;
