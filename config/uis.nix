@@ -32,12 +32,18 @@
       };
     };
   };
-  colorschemes.ayu ={
+  colorschemes.catppuccin = {
     enable = true;
     settings = {
-      mirage = true;
+      flavour = "latte";
     };
   };
+  # colorschemes.ayu ={
+  #   enable = true;
+  #   settings = {
+  #     mirage = true;
+  #   };
+  # };
   # colorscheme = "everforest"; 
   # colorschemes.everforest = {
   #   enable = true;
