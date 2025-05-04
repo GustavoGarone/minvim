@@ -32,22 +32,22 @@
       };
     };
   };
-  colorschemes.base16 = {
-    enable = true;
-    colorscheme = "da-one-paper";
-  };
+  # colorschemes.base16 = {
+  #   enable = true;
+  #   colorscheme = "da-one-paper";
+  # };
   # colorschemes.catppuccin = {
   #   enable = true;
   #   settings = {
   #     flavour = "latte";
   #   };
   # };
-  # colorschemes.ayu ={
-  #   enable = true;
-  #   settings = {
-  #     mirage = true;
-  #   };
-  # };
+  colorschemes.ayu ={
+    enable = true;
+    settings = {
+      mirage = true;
+    };
+  };
   # colorscheme = "everforest"; 
   # colorschemes.everforest = {
   #   enable = true;
