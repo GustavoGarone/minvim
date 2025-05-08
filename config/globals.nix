@@ -3,7 +3,6 @@
     mapleader = " ";
     maplocalleader = " ";
     editorconfig = true;
-    bg = "light";
   };
   performance= {
     combinePlugins = {
