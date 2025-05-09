@@ -32,10 +32,10 @@
       };
     };
   };
-  colorschemes.base16 = {
-    enable = true;
-    colorscheme = "equilibrium-light";
-  };
+  # colorschemes.base16 = {
+  #   enable = true;
+  #   colorscheme = "equilibrium-light";
+  # };
   # colorschemes.catppuccin = {
   #   enable = true;
   #   settings = {
