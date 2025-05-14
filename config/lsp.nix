@@ -118,6 +118,7 @@
       r_language_server = {
         enable = true;
         package = null;
+        filetypes = ["R" "r" "rmd"];
       };
 
       pyright = {
