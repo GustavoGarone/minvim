@@ -3,9 +3,9 @@
     number = true;
     relativenumber = true;
     expandtab = true;
-    shiftwidth = 2;
-    tabstop = 2;
-    softtabstop = 2;
+    shiftwidth = 4;
+    tabstop = 8;
+    softtabstop = 4;
     foldenable = true;
     splitright = true;
     splitbelow = true;
