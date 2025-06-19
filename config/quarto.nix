@@ -4,7 +4,7 @@
       enable = true;
       settings = {
         codeRunner = {
-            default_method = "molten";
+            default_method = "slime";
             enabled = true;
           };
         debug = false;
@@ -14,7 +14,7 @@
             triggers = [
               "BufWritePost"
             ];
-            completion.enabled = false;
+            completion.enabled = true;
           };
           enabled = true;
           chunks = "curly";
@@ -24,6 +24,7 @@
             "julia"
             "bash"
             "html"
+            "latex"
           ];
           completion.enabled = true;
         };

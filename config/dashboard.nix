@@ -3,8 +3,8 @@
     dashboard = {
       enable = true;
       settings = {
-          config = {
-          footer = [ "🍃Derg OS🍃" ];
+        config = {
+          footer = ["🍃Derg OS🍃"];
           header = [
             "▗▖  ▗▖▄ ▄▄▄▄  ▄   ▄ ▄ ▄▄▄▄  "
             "▐▛▚▞▜▌▄ █   █ █   █ ▄ █ █ █ "

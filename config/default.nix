@@ -1,6 +1,6 @@
 {
   # Import all your configuration modules here
-  imports = [ 
+  imports = [
     ./uis.nix
     ./terminals.nix
     ./opts.nix
@@ -16,5 +16,6 @@
     ./lsp.nix
     ./quarto.nix
     ./dashboard.nix
+    ./conform.nix
   ];
 }

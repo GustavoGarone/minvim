@@ -16,6 +16,7 @@
     undolevels = 2000;
     history = 2000;
     colorcolumn = ["80" "120"];
+    textwidth = 80;
     lazyredraw = true;
     ignorecase = true;
     smartcase = true;
