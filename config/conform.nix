@@ -11,9 +11,10 @@
           python = ["isort" "black"];
           r = ["styler"];
           julia = ["runic"];
-          quarto = ["injected"];
-          markdown = ["injected"];
+          quarto = ["mdformat" "injected"];
+          markdown = ["mdformat" "injected"];
           latex = ["tex-fmt"];
+          yaml = ["yamlfix"];
           "_" = [
             "squeeze_blanks"
             "trim_whitespace"
