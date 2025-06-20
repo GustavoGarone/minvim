@@ -5,3 +5,7 @@ function main()
 
     b = 20
 end
+
+function dista(iadada)
+
+end
