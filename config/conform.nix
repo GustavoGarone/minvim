@@ -11,8 +11,8 @@
           python = ["isort" "black"];
           r = ["styler"];
           julia = ["runic"];
-          quarto = ["prettier" "injected"];
-          markdown = ["prettier" "injected"];
+          quarto = ["prettierd" "injected"];
+          markdown = ["prettierd" "injected"];
           latex = ["tex-fmt"];
           "_" = [
             "squeeze_blanks"
