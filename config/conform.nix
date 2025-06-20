@@ -11,10 +11,9 @@
           python = ["isort" "black"];
           r = ["styler"];
           julia = ["runic"];
-          quarto = ["mdformat" "injected"];
-          markdown = ["mdformat" "injected"];
+          quarto = ["prettier" "injected"];
+          markdown = ["prettier" "injected"];
           latex = ["tex-fmt"];
-          yaml = ["yamlfix"];
           "_" = [
             "squeeze_blanks"
             "trim_whitespace"
@@ -46,6 +45,9 @@
           runic = {
             command = "julia";
             args = ["--project=@runic" "-e" "using Runic; exit(Runic.main(ARGS))"];
+          };
+          prettier = {
+            options.ext_parsers.qmd = "markdown";
           };
         };
       };

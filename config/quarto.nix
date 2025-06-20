@@ -4,9 +4,9 @@
       enable = true;
       settings = {
         codeRunner = {
-            default_method = "slime";
-            enabled = true;
-          };
+          default_method = "slime";
+          enabled = true;
+        };
         debug = false;
         lspFeatures = {
           diagnostics = {
@@ -76,13 +76,12 @@
         maxWidth = 100;
         maxHeight = 20;
         maxHeightWindowPercentage.__raw = "math.huge";
-        maxWidthWindowPercentage =  100000;
-        settings.integrations.markdown.filetypes =
-          [
-            "markdown"
-            "vimwiki"
-            "quarto"
-          ];
+        maxWidthWindowPercentage = 100000;
+        settings.integrations.markdown.filetypes = [
+          "markdown"
+          "vimwiki"
+          "quarto"
+        ];
       };
     };
     otter = {
