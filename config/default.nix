@@ -12,7 +12,8 @@
     ./globals.nix
     ./nvim-lint.nix
     ./keymaps.nix
-    ./nvim-cmp.nix
+    # ./nvim-cmp.nix
+    ./blink-cmp.nix
     ./lsp.nix
     ./quarto.nix
     ./dashboard.nix
