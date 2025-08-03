@@ -26,7 +26,7 @@
         cmdline = [];
         providers = {
           buffer = {
-            score_offset = -7;
+            score_offset = -1;
           };
           lsp = {
             fallbacks = [];
