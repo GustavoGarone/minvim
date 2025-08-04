@@ -46,9 +46,9 @@
             command = "julia";
             args = ["--project=@runic" "-e" "using Runic; exit(Runic.main(ARGS))"];
           };
-          prettier = {
-            options.ext_parsers.qmd = "markdown";
-          };
+          # prettier = {
+          #   options.ext_parsers.qmd = "markdown";
+          # };
         };
       };
     };
