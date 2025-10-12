@@ -1,0 +1,5 @@
+{
+  copilot-vim = {
+    enable = true;
+  };
+}
