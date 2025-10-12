@@ -15,6 +15,7 @@
     # ./nvim-cmp.nix
     ./blink-cmp.nix
     ./lsp.nix
+    ./copilot.nix
     ./quarto.nix
     ./dashboard.nix
     ./conform.nix
