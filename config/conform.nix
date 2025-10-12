@@ -14,6 +14,7 @@
           quarto = ["injected"];
           markdown = ["injected"];
           latex = ["tex-fmt"];
+          sql = ["sqruff"];
           "_" = [
             "squeeze_blanks"
             "trim_whitespace"
