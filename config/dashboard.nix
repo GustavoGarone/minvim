@@ -15,6 +15,6 @@
         theme = "hyper";
       };
     };
-    presence-nvim.enable = true;
+    presence.enable = true;
   };
 }
