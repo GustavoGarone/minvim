@@ -66,12 +66,12 @@
       };
 
       sources = [
-        { name = "nvim_lsp"; }
-        { name = "latex-symbols"; }
-        { name = "vsnip"; }
-        { name = "path"; }
-        { name = "buffer"; }
-        { name = "luasnip"; }
+        {name = "nvim_lsp";}
+        {name = "latex-symbols";}
+        {name = "vsnip";}
+        {name = "path";}
+        {name = "buffer";}
+        {name = "luasnip";}
       ];
 
       completion = {
@@ -96,7 +96,7 @@
         "<C-y>" = "cmp.mapping.confirm { select = true }";
         # If you prefer more traditional completion keymaps,
         # you can uncomment the following lines.
-        "<Tab>" = "cmp.mapping.confirm { select = true }";
+        # "<Tab>" = "cmp.mapping.confirm { select = true }";
         "<A-j>" = "cmp.mapping.select_next_item()";
         "<A-k>" = "cmp.mapping.select_prev_item()";
 
