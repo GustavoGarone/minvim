@@ -114,6 +114,10 @@
         enable = true;
       };
 
+      sqls = {
+        enable = true;
+      };
+
       julials = {
         enable = true;
         package = null;
