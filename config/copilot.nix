@@ -14,7 +14,7 @@
     settings = {
       node_command = lib.getExe pkgs.nodejs_24;
       suggestion.enabled = false;
-      panel.enabled = true;
+      panel.enabled = false;
     };
     lazyLoad.enable = false;
     lazyLoad.settings.cmd = ["Copilot"];
