@@ -13,7 +13,8 @@
     ./nvim-lint.nix
     ./keymaps.nix
     # ./nvim-cmp.nix
-    ./blink-cmp.nix
+    # ./blink-cmp.nix
+    ./cmp.nix
     ./lsp.nix
     ./copilot.nix
     ./quarto.nix

@@ -11,11 +11,13 @@
     ps.jsregexp
   ];
 
+  # plugins.blink-cmp-copilot.enable = true;
+
   plugins.blink-cmp = {
     enable = true;
     settings = {
       signature.enabled = true;
-      keymap.preset = "super-tab";
+      keymap.preset = "default";
       completion = {
         accept.auto_brackets = {
           enabled = true;
@@ -31,6 +33,12 @@
           lsp = {
             fallbacks = [];
           };
+          # copilot = {
+          #   async = true;
+          #   module = "blink-cmp-copilot";
+          #   name = "copilot";
+          #   score_offset = 1;
+          # };
         };
       };
     };

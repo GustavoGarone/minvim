@@ -13,7 +13,7 @@
         keymaps = {
           init_selection = "<CR>";
           node_incremental = "<CR>";
-          scope_incremental = "<TAB>";
+          scope_incremental = "<C-CR>";
           node_decremental = "<S-TAB>";
         };
       };
